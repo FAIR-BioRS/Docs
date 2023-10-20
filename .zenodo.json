@@ -1,0 +1,34 @@
+{
+  "upload_type": "software",
+  "title": "SODA for SPARC docs",
+  "publication_date": "2023-10-01",
+  "creators": [
+    {
+      "name": "Soundarajan, Sanjay",
+      "affiliation": "FAIR Data Innovations Hub"
+    },
+    {
+      "name": "Portillo, Dorian",
+      "affiliation": "FAIR Data Innovations Hub"
+    },
+    {
+      "name": "Patel, Bhavesh",
+      "affiliation": "FAIR Data Innovations Hub"
+    }
+  ],
+  "description": "Documentation for the SODA for SPARC application",
+  "access_right": "open",
+  "license": "MIT",
+  "keywords": [
+    "SPARC",
+    "FAIR",
+    "data",
+    "curation",
+    "documentation",
+    "macos",
+    "sparc-dataset",
+    "ubuntu",
+    "windows"
+  ],
+  "version": "26.1.2"
+}
