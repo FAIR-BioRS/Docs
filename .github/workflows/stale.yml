@@ -14,7 +14,7 @@ jobs:
     steps:
       - uses: actions/stale@v8
         with:
-          repo-token: ${{ secrets.BOT_ACTIONS }}
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
           stale-issue-message: 'Stale issue'
           stale-pr-message: 'Stale pull request'
           stale-issue-label: 'no-issue-activity'

@@ -154,17 +154,17 @@ export default function FooterWrapper() {
                 <h3 className="footer-header">Docs</h3>
                 <ul className="m-0 list-outside list-none p-0">
                   <li className="pb-2 text-base">
-                    <div className="h-max w-max scale-100  transition-all hover:scale-105">
+                    <div className="h-max w-max transition-all">
                       <Link href="/docs/developer-documentation/changelog">Changelog</Link>
                     </div>
                   </li>
                   <li className="pb-2 text-base ">
-                    <div className="h-max w-max scale-100  transition-all hover:scale-105">
+                    <div className="h-max w-max transition-all">
                       <Link href="/docs/intro">What is FAIR BioRS?</Link>
                     </div>
                   </li>
                   {/* <li className="pb-2 text-base ">
-                    <div className="h-max w-max scale-100  transition-all hover:scale-105">
+                    <div className="h-max w-max transition-all">
                       <Link href="/versions">Versions</Link>
                     </div>
                   </li> */}
@@ -174,7 +174,7 @@ export default function FooterWrapper() {
                 <h3 className="footer-header">Company</h3>
                 <ul className="m-0 list-outside list-none p-0">
                   <li className="pb-2 text-base ">
-                    <div className="h-max w-max scale-100  transition-all hover:scale-105">
+                    <div className="h-max w-max transition-all">
                       <Link href="https://fairdataihub.org/team">
                         {' '}
                         About <ExternalLinkSVG />{' '}
@@ -182,7 +182,7 @@ export default function FooterWrapper() {
                     </div>
                   </li>
                   <li className="pb-2 text-base ">
-                    <div className="h-max w-max scale-100  transition-all hover:scale-105">
+                    <div className="h-max w-max transition-all">
                       <Link href="https://fairdataihub.org/contact-us">
                         {' '}
                         Contact Us <ExternalLinkSVG />
@@ -195,17 +195,17 @@ export default function FooterWrapper() {
                 <h3 className="footer-header">Legal</h3>
                 <ul className="m-0 list-outside list-none p-0">
                   <li className="pb-2 text-base ">
-                    <div className="h-max w-max scale-100  transition-all hover:scale-105">
+                    <div className="h-max w-max transition-all">
                       <Link href="/docs/legal/privacypolicy">Privacy Policy</Link>
                     </div>
                   </li>
                   <li className="pb-2 text-base ">
-                    <div className="h-max w-max scale-100  transition-all hover:scale-105">
+                    <div className="h-max w-max transition-all">
                       <Link href="/docs/legal/termsofuse">Terms of Use</Link>
                     </div>
                   </li>
                   <li className="pb-2 text-base ">
-                    <div className="h-max w-max scale-100  transition-all hover:scale-105">
+                    <div className="h-max w-max transition-all">
                       <Link href="/docs/legal/cookiepolicy">Cookie Policy</Link>
                     </div>
                   </li>
