@@ -155,7 +155,7 @@ export default function FooterWrapper() {
                 <ul className="m-0 list-outside list-none p-0">
                   <li className="pb-2 text-base">
                     <div className="h-max w-max transition-all">
-                      <Link href="/docs/developer-documentation/changelog">Changelog</Link>
+                      <Link href="/docs/changelog">Changelog</Link>
                     </div>
                   </li>
                   <li className="pb-2 text-base ">
