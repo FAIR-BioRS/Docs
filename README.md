@@ -7,8 +7,6 @@
     Documentation of the FAIR-BioRS guidelines and all things related to them
   </p>
 
-
-   
   <h4>
     <a href="https://fair-biors.org/">fair-biors.org</a>
   </h4>
