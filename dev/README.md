@@ -64,6 +64,18 @@ yarn build
 yarn serve
 ```
 
+## ::Submitting a PR
+
+If you are an external contributor, please make a fork of the repository and submit a PR from your fork. If you are a member of the FAIR-BioRS Working Group, you can submit a PR from a branch in this repository.
+
+1. Create a new branch from the `main` branch.
+2. Make your changes. You can test your changes locally by running `yarn dev`. Make sure to check the console for any errors.
+3. Test your changes on a local build by running `yarn build` and `yarn serve`. If this works, you can submit yout changes.
+4. Push your changes to the remote branch.
+5. Create a PR to merge your branch into `main`.
+
+You can tag `@bpatel` or `@megasanjay` in the PR on GitHub for a review. If your changes are approved, they will be merged into `main` and deployed to the live site.
+
 ## :triangular_flag_on_post: Deployment
 
 You will not need to do anything to the hosted site. Continuous Delivery has been setup with Vercel. All you need to do is push your commit and wait for it to deploy.
