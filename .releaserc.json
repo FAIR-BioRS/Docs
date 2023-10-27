@@ -14,7 +14,7 @@
       "prerelease": true
     }
   ],
-  "repositoryUrl": "https://github.com/fairdataihub/FAIR-BioRS.git",
+  "repositoryUrl": "https://github.com/FAIR-BioRS/Docs.git",
   "plugins": [
     [
       "@semantic-release/commit-analyzer",
