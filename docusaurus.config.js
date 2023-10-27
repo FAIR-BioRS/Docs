@@ -96,7 +96,7 @@ const config = {
             items: [
               {
                 label: 'Changelog',
-                to: '/docs/changelog',
+                to: 'docs/resources/changelog',
               },
             ],
           },
@@ -104,8 +104,8 @@ const config = {
             title: 'Community',
             items: [
               // {
-              //   label: "Stack Overflow",
-              //   href: "https://stackoverflow.com/questions/tagged/docusaurus",
+              //   label: 'Stack Overflow',
+              //   href: 'https://stackoverflow.com/questions/tagged/docusaurus',
               // },
               {
                 label: 'Homepage',
@@ -125,7 +125,11 @@ const config = {
               //   to: "/blog",
               // },
               {
-                label: 'GitHub',
+                label: 'Guidelines on GitHub',
+                href: 'https://github.com/FAIR-BioRS/Guidelines',
+              },
+              {
+                label: 'Docs on GitHub',
                 href: 'https://github.com/FAIR-BioRS/Docs',
               },
             ],
