@@ -1,0 +1,28 @@
+---
+sidebar_position: 2
+title: About this documentation
+---
+
+## Structure
+
+This documentation is conveniently organized so you can easily find what you are looking for:
+
+- The ["Guidelines" section](../guidelines.md) contains the FAIR-BioRS guidelines. Head straight there if all you want is learn how to make your biomedical research software FAIR. Note that this documentation was started from v2.0.0 of the guidelines. Versions prior to v2.0.0 can be found on the [original GitHub repository](https://github.com/FAIR-BioRS/Guidelines) that was used to maintain the FAIR-BioRS guidelines.
+
+- The ["Crosswalk with FAIR4RS" section](../crosswalk.md) provides a point by points assessment of how the FAIR-BioRS guidelines allow to comply with each of the FAIR4RS Principles.
+
+- The ["Working Group" section](../wg.md) contains information about the Working Group that is maintaining the FAIR-BioRS guidelines.
+
+- The ["Resources" section](../resources/fairshare) section contains various information such as instructions for [contributing or making suggestions](../resources/contributing).
+
+## Maintenance
+
+This documentation is maintained from its GitHub repository accessible [here](https://github.com/FAIR-BioRS/Docs).
+
+## Suggestions/Feedback
+
+Have a suggestion for improving the FAIR-BioRS Guidelines? Need help implementing the CDS? Checkout instructions in our [Contributing page](../resources/contributing).
+
+import PageFeedback from '@site/src/components/PageFeedback';
+
+<PageFeedback />

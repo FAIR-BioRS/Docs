@@ -12,7 +12,7 @@ const config = {
   // eslint-disable-next-line max-len
   tagline:
     // eslint-disable-next-line max-len
-    'The first minimal and actionable step-by-step guidelines for biomedical researchers to make their research software compliant with the FAIR4RS principles.',
+    'Minimal and actionable step-by-step guidelines for biomedical researchers to make their research software reusable in line with the FAIR4RS principles.',
   url: 'https://docs.fair-biors.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -33,7 +33,7 @@ const config = {
           showLastUpdateTime: true,
           versions: {
             current: {
-              label: `Upcoming 🚧`,
+              label: `2.0.0`,
             },
           },
         },
@@ -68,7 +68,7 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'guidelines',
             position: 'left',
             label: 'Guidelines',
           },
@@ -82,7 +82,7 @@ const config = {
             position: 'right',
           },
           {
-            href: 'https://fairdataihub.org/contact-us',
+            href: '/docs/resources/contributing',
             label: 'Contact Us',
             position: 'right',
           },
@@ -91,47 +91,43 @@ const config = {
       footer: {
         style: 'dark',
         links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Changelog',
-                to: '/docs/changelog',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              // {
-              //   label: "Stack Overflow",
-              //   href: "https://stackoverflow.com/questions/tagged/docusaurus",
-              // },
-              {
-                label: 'Homepage',
-                href: 'https://fairdataihub.org',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/fairdataihub',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              // {
-              //   label: "Blog",
-              //   to: "/blog",
-              // },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/FAIR-BioRS/Docs',
-              },
-            ],
-          },
+          // {
+          //   title: 'Docs',
+          //   items: [
+          //     {
+          //       label: 'Changelog',
+          //       to: 'docs/resources/changelog',
+          //     },
+          //   ],
+          // },
+          // {
+          // title: 'Community',
+          // items: [
+          // {
+          //   label: 'Stack Overflow',
+          //   href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+          // },
+          // ],
+          // },
+          // {
+          //   title: 'More',
+          //   items: [
+          //     {
+          //       label: "Blog",
+          //       to: "/blog",
+          //     },
+          //     {
+          //       label: 'Guidelines on GitHub',
+          //       href: 'https://github.com/FAIR-BioRS/Guidelines',
+          //     },
+          //     {
+          //       label: 'Docs on GitHub',
+          //       href: 'https://github.com/FAIR-BioRS/Docs',
+          //     },
+          //   ],
+          // },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Fair Data Innovations Hub.`,
+        copyright: `Copyright © ${new Date().getFullYear()} FAIR-BioRS Contributors.`,
       },
       colorMode: {
         respectPrefersColorScheme: false,
@@ -139,8 +135,8 @@ const config = {
       announcementBar: {
         id: 'announcement-bar',
         // eslint-disable-next-line max-len
-        content: `⭐️ <strong> We would love your support. Give us a star on <a target="_blank" rel="noopener noreferrer" href="https://github.com/FAIR-BioRS/Guidelines">Github</a> and follow us on <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/fairdataihub">Twitter</a>. </strong>`,
-        backgroundColor: '#fff3f8',
+        content: `⭐️ <strong> We would love your support. Give us a star on <a target="_blank" rel="noopener noreferrer" href="https://github.com/FAIR-BioRS/Guidelines">Github</a>. </strong>`,
+        backgroundColor: '#e8f0f7',
         textColor: '#0f172a',
         isCloseable: true,
       },
@@ -164,7 +160,7 @@ const config = {
         },
         {
           name: 'author',
-          content: 'Fair Data Innovations Hub',
+          content: 'FAIR-BioRS Contributors',
         },
       ],
       // algolia: {
