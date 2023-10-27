@@ -1,5 +1,7 @@
 # 1.0.0 (2023-10-27)
 
+This is the first release of the FAIR-BioRS documentation. This version corresponse to the v2.0.0 of the FAIR-BioRS guidelines.
+
 ### Bug Fixes
 
 - 🐛 docId ([ca4ecdd](https://github.com/FAIR-BioRS/Docs/commit/ca4ecdd2674f65a272f9fcb5cb52b98bed1ba6f7))
@@ -28,20 +30,3 @@
 - ✨ add a changelog ([5ceb286](https://github.com/FAIR-BioRS/Docs/commit/5ceb2862881082b386b62b6df22bf83697ad8d21))
 - ✨ added more docs sections ([55b0974](https://github.com/FAIR-BioRS/Docs/commit/55b097415154280c2e827b71da403de5cd62cc3b))
 - ✨ Examples section ([f990158](https://github.com/FAIR-BioRS/Docs/commit/f9901587d718a6923356e4784f7e08b5ac3f6cea))
-
-# Changelog
-
-All notable changes to this documenation will be documented in this file.
-
-The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
-and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
-
-## [v1.0.0] - 2023-10-27
-
-This is the first release of the FAIR-BioRS documentation. This version corresponse to the v2.0.0 of the FAIR-BioRS guidelines.
-
-### Added
-
-- Added the base documentation for the FAIR-BioRS guidelines.
-- Added the developer docs for the FAIR-BioRS documentation.
-- Added the contributing resources for the FAIR-BioRS documentation.
