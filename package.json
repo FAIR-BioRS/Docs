@@ -1,6 +1,6 @@
 {
   "name": "docs",
-  "version": "0.0.9",
+  "version": "1.0.0",
   "private": true,
   "author": "FAIR-BioRS Contributors <info@fairdataihub.org> (https://github.com/FAIR-BioRS)",
   "scripts": {
