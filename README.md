@@ -7,36 +7,33 @@
     Documentation of the FAIR-BioRS guidelines and all things related to them
   </p>
 
-<p>
-  <a href="https://github.com/FAIR-BioRS/Docs/graphs/contributors">
-    <img src="https://img.shields.io/github/contributors/FAIR-BioRS/Docs.svg?style=flat-square" alt="contributors" />
-  </a>
-  <a href="https://github.com/FAIR-BioRS/Docs/stargazers">
-    <img src="https://img.shields.io/github/stars/FAIR-BioRS/Docs.svg?style=flat-square" alt="stars" />
-  </a>
-  <a href="https://github.com/FAIR-BioRS/Docs/issues/">
-    <img src="https://img.shields.io/github/issues/FAIR-BioRS/Docs.svg?style=flat-square" alt="open issues" />
-  </a>
-  <a href="https://github.com/FAIR-BioRS/Docs/blob/main/LICENSE">
-    <img src="https://img.shields.io/github/license/FAIR-BioRS/Docs.svg?style=flat-square" alt="license" />
-  </a>
-  <a href="https://doi.org/10.5281/zenodo.6407300">
-    <img src="https://zenodo.org/badge/DOI/10.5281/zenodo.6407300.svg" alt="doi" />
-  </a>
-  <a href="https://fairdataihub.org/fairshare">
-    <img src="https://img.shields.io/badge/Curated%20with-FAIRshare-yellow" alt="Curated with FAIRshare" />
-  </a>
-</p>
+
    
-<h4>
-    <a href="https://docs.sodaforsparc.io/docs/intro">What is FAIR BioRS?</a>
-  <span> · </span>
-    <a href="https://docs.sodaforsparc.io/">Documentation</a>
-  <span> · </span>
-    <a href="https://docs.sodaforsparc.io/docs/developer-documentation/changelog">Changelog</a>
-  <span> · </span>
-    <a href="https://github.com/FAIR-BioRS/Docs/issues/">Report a bug</a>
+  <h4>
+    <a href="https://fair-biors.org/">fair-biors.org</a>
   </h4>
+  
+  <p>
+    <a href="https://github.com/FAIR-BioRS/Docs/graphs/contributors">
+      <img src="https://img.shields.io/github/contributors/FAIR-BioRS/Docs.svg?style=flat-square" alt="contributors" />
+    </a>
+    <a href="https://github.com/FAIR-BioRS/Docs/stargazers">
+      <img src="https://img.shields.io/github/stars/FAIR-BioRS/Docs.svg?style=flat-square" alt="stars" />
+    </a>
+    <a href="https://github.com/FAIR-BioRS/Docs/issues/">
+      <img src="https://img.shields.io/github/issues/FAIR-BioRS/Docs.svg?style=flat-square" alt="open issues" />
+    </a>
+    <a href="https://github.com/FAIR-BioRS/Docs/blob/main/LICENSE">
+      <img src="https://img.shields.io/github/license/FAIR-BioRS/Docs.svg?style=flat-square" alt="license" />
+    </a>
+    <a href="https://doi.org/10.5281/zenodo.6407300">
+      <img src="https://zenodo.org/badge/DOI/10.5281/zenodo.6407300.svg" alt="doi" />
+    </a>
+    <a href="https://fairdataihub.org/fairshare">
+      <img src="https://img.shields.io/badge/Curated%20with-FAIRshare-yellow" alt="Curated with FAIRshare" />
+    </a>
+  </p>
+
 </div>
 
 <br />
@@ -57,7 +54,7 @@ If you are developing such a software for biomedical research, head to the [docu
 
 If you are working with or developing biomedical research software and are interested in joining the FAIR-BioRS Working Group, please open a [GitHub issue](https://github.com/FAIR-BioRS/Docs/issues) or email bpatel@calmi2.org.
 
-### Making feedback/suggestions
+### Providing feedback/suggestions
 
 Have feedback, suggestions, or questions related to the FAIR-BioRS guidelines? Submit them by opening a GitHub issue. If you want to suggest changes to this docs, you can also submit a PR by following the instructions in the developer instructions (see next section).
 
