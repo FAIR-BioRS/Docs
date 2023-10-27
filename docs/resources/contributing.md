@@ -9,7 +9,7 @@ If you are working with or developing biomedical research software and are inter
 
 ## Providing feedback/suggestions
 
-Have feedback, suggestions, or questions related to the FAIR-BioRS guidelines? Submit them by opening a [GitHub issue](https://github.com/FAIR-BioRS/Docs/issues). If you want to suggest changes to this docs, you can also submit a PR by following the instructions in the developer instructions (see next section).
+Have feedback, suggestions, or questions related to the FAIR-BioRS guidelines? Submit them by opening a [GitHub issue](https://github.com/FAIR-BioRS/Docs/issues). If you want to suggest changes to this docs, you can also submit a PR by following the instructions in the [developer instructions](#developer-instructions).
 
 ## Developer instructions
 
