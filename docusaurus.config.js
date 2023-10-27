@@ -82,7 +82,7 @@ const config = {
             position: 'right',
           },
           {
-            href: 'https://fairdataihub.org/contact-us',
+            href: '/docs/resources/contributing',
             label: 'Contact Us',
             position: 'right',
           },
