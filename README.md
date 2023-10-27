@@ -38,13 +38,13 @@
 
 ## :star2: About
 
-The FAIR Biomedical Research Software (FAIR-BioRS) guidelines are a set of minimal and actionable step-by-step instructions for making biomedical research software FAIR (Findable, Accessible, Interoperable, Reusable), i.e., optimizing their reusability. This repository is meant to maintain and document the guidelines at [fair-biors.org](https://fair-biors.org/).
+The [FAIR Biomedical Research Software (FAIR-BioRS) guidelines](https://doi.org/10.1038/s41597-023-02463-x) are a set of minimal and actionable step-by-step instructions for making biomedical research software FAIR (Findable, Accessible, Interoperable, Reusable), i.e., optimizing their reusability. You can find everything about the guidelines in the documentation at [fair-biors.org](https://fair-biors.org/)
 
 ## :question: When to use the FAIR-BioRS guidelines?
 
 The FAIR-BioRS guidelines were developed for software "that were created during the research process or for a research purpose" as per the definition established in "[Defining Research Software: a controversial discussion](https://doi.org/10.5281/zenodo.5504016)". Such research software can come in many formats such as Python scripts, R code, or Jupyter notebooks and can be developed for various applications such as AI/ML models, computational models, or data visualization.
 
-If you are developing such a software for biomedical research, head to the [documentation](https://fair-biors.org/docs/guidelines) to learn how you can make your software compliant with the FAIR4RS principles. This will allow you to get proper recognition (e.g., citation) for your software development effort, enhance the impact of your software (e.g., by being reused in other projects), and increase collaboration opportunities. As funding agencies are pushing for all research outcomes to be FAIR, following the FAIR-BioRS guidelines will allow to start complying with those requirements.
+If you are developing such a software for biomedical research, head to the [documentation](https://fair-biors.org/docs/guidelines) to learn how you can make your software compliant with the [FAIR Principles for Research Software (FAI4RS Principles)](https://doi.org/10.1038/s41597-022-01710-x). This will allow you to get proper recognition (e.g., citation) for your software development effort, enhance the impact of your software (e.g., by being reused in other projects), and increase collaboration opportunities. As funding agencies are pushing for all research outcomes to be FAIR, following the FAIR-BioRS guidelines will also allow you to start complying with those requirements.
 
 ## :wave: Contributing
 
@@ -54,7 +54,7 @@ If you are working with or developing biomedical research software and are inter
 
 ### Providing feedback/suggestions
 
-Have feedback, suggestions, or questions related to the FAIR-BioRS guidelines? Submit them by opening a GitHub issue. If you want to suggest changes to this docs, you can also submit a PR by following the instructions in the developer instructions (see next section).
+Have feedback, suggestions, or questions related to the FAIR-BioRS guidelines? Submit them by opening a [GitHub issue](https://github.com/FAIR-BioRS/Docs/issues). If you want to suggest changes to this docs, you can also submit a PR by following the instructions in the developer instructions (see next section).
 
 ### Developer instructions
 

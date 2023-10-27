@@ -3,18 +3,17 @@ sidebar_position: 2
 title: Contributing
 ---
 
-Have feedback, suggestions, or questions? Submit them by [opening a GitHub issue](https://github.com/FAIR-BioRS/Docs/issues). If you want to suggest changes to this docs, you can also submit a PR by following these instructions:
+### Joining the FAIR-BioRS Working Group
 
-- Clone the [FAIR-BioRS Guidelines Docs](https://github.com/FAIR-BioRS/Docs.git) repository from GitHub
+If you are working with or developing biomedical research software and are interested in joining the FAIR-BioRS Working Group, please open a [GitHub issue](https://github.com/FAIR-BioRS/Docs/issues) or email bpatel@calmi2.org.
 
-```sh
-git clone https://github.com/FAIR-BioRS/Docs.git
-```
+### Providing feedback/suggestions
 
-- Get the project running locally using the [README](https://github.com/FAIR-BioRS/Docs/README.md) instructions
-- Create a separate branch based off `main`
-- Make your changes to the project and commit them to the local repository
-- Create a PR to the main branch with [@bvhpatel](https://github.com/bvhpatel) and/or [@megasanjay](https://github.com/megasanjay) as reviewers The reviewers will merge your suggestions if approved or follow up with comments.
+Have feedback, suggestions, or questions related to the FAIR-BioRS guidelines? Submit them by opening a [GitHub issue](https://github.com/FAIR-BioRS/Docs/issues). If you want to suggest changes to this docs, you can also submit a PR by following the instructions in the developer instructions (see next section).
+
+### Developer instructions
+
+Instructions for making changes to the documentation, submitting a PR, and publishing a new version of the documentation and guidelines are available [here](https://github.com/FAIR-BioRS/Docs/).
 
 import PageFeedback from '@site/src/components/PageFeedback';
 
