@@ -107,14 +107,6 @@ const config = {
           //   label: 'Stack Overflow',
           //   href: 'https://stackoverflow.com/questions/tagged/docusaurus',
           // },
-          // {
-          //   label: 'Homepage',
-          //   href: 'https://fairdataihub.org',
-          // },
-          // {
-          //   label: 'Twitter',
-          //   href: 'https://twitter.com/fairdataihub',
-          // },
           // ],
           // },
           // {
@@ -143,7 +135,7 @@ const config = {
       announcementBar: {
         id: 'announcement-bar',
         // eslint-disable-next-line max-len
-        content: `⭐️ <strong> We would love your support. Give us a star on <a target="_blank" rel="noopener noreferrer" href="https://github.com/FAIR-BioRS/Guidelines">Github</a> and follow us on <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/fairdataihub">Twitter</a>. </strong>`,
+        content: `⭐️ <strong> We would love your support. Give us a star on <a target="_blank" rel="noopener noreferrer" href="https://github.com/FAIR-BioRS/Guidelines">Github</a>. </strong>`,
         backgroundColor: '#e8f0f7',
         textColor: '#0f172a',
         isCloseable: true,

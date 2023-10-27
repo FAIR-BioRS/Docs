@@ -58,7 +58,7 @@ Have feedback, suggestions, or questions related to the FAIR-BioRS guidelines? S
 
 ### Developer instructions
 
-Instructions for making changes to the documentation, submitting a PR, and publishing a new version of the documentation and guidelines are available [here]().
+Instructions for making changes to the documentation, submitting a PR, and publishing a new version of the documentation and guidelines are available [here](/dev/README.md).
 
 ## :gem: Acknowledgements
 
