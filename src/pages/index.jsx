@@ -15,12 +15,12 @@ function HomepageHeader() {
         <h1 className="hero__title">{siteConfig.title}</h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
-          <Link className="button button--secondary button--lg" to="/docs/intro">
+          <Link className="button button--secondary button--lg" to="/docs/getting-started/intro">
             View the Documentation
           </Link>
           <Link
             className="button button--secondary button--lg"
-            to="https://github.com/fairdataihub/FAIR-BioRS-Docs"
+            to="https://github.com/FAIR-BioRS/Docs"
           >
             View Github Repository
           </Link>
