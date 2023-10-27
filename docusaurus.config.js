@@ -144,7 +144,7 @@ const config = {
         id: 'announcement-bar',
         // eslint-disable-next-line max-len
         content: `⭐️ <strong> We would love your support. Give us a star on <a target="_blank" rel="noopener noreferrer" href="https://github.com/FAIR-BioRS/Guidelines">Github</a> and follow us on <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/fairdataihub">Twitter</a>. </strong>`,
-        backgroundColor: '#fff3f8',
+        backgroundColor: '#e8f0f7',
         textColor: '#0f172a',
         isCloseable: true,
       },
