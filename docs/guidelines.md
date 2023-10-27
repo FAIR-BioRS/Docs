@@ -3,6 +3,8 @@ sidebar_position: 2
 title: Guidelines
 ---
 
+## FAIR-BioRS Guidelines v2.0.0
+
 ## 1. Prepare prior to the development of the software
 
 1.1. Select a version control system platform to work from ([GitHub](https://github.com/), [Bitbucket](https://bitbucket.org/), or [GitLab](https://gitlab.com/) are suggested) and create a repository there for your software.

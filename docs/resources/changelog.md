@@ -1,11 +1,10 @@
 ---
-sidebar_position: 3
+sidebar_position: 4
 
 title: Changelog
-image: https://og.fairdataihub.org/api/ogimage?app=soda-for-sparc&title=Changelog&description=All%20notable%20changes%20to%20SODA%20for%20SPARC
 ---
 
-# Change Log
+# Changelog
 
 All notable changes to the FAIR-BioRS guidelines will be documented in this file.
 
