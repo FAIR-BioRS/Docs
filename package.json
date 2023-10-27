@@ -1,8 +1,8 @@
 {
   "name": "docs",
-  "version": "26.1.2",
+  "version": "1.0.0",
   "private": true,
-  "author": "Fair Data Innovations Hub <info@fairdataihub.org> (https://fairdataihub.org)",
+  "author": "FAIR-BioRS Contributors <info@fairdataihub.org> (https://github.com/FAIR-BioRS)",
   "scripts": {
     "docusaurus": "docusaurus",
     "dev": "docusaurus start",

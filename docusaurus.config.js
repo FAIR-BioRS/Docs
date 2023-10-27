@@ -131,7 +131,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Fair Data Innovations Hub.`,
+        copyright: `Copyright © ${new Date().getFullYear()} FAIR-BioRS Contributors.`,
       },
       colorMode: {
         respectPrefersColorScheme: false,
@@ -164,7 +164,7 @@ const config = {
         },
         {
           name: 'author',
-          content: 'Fair Data Innovations Hub',
+          content: 'FAIR-BioRS Contributors',
         },
       ],
       // algolia: {

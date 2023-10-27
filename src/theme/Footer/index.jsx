@@ -217,7 +217,7 @@ export default function FooterWrapper() {
 
           <div className="mt-3 flex h-full flex-col items-center justify-center space-y-4 space-x-0 divide-x-2 divide-none divide-gray-200 py-5 md:flex-row md:space-y-0 md:space-x-4 md:divide-solid">
             <div className="text-center ">
-              <p className="m-0">© {new Date().getFullYear()} FAIR Data Innovations Hub.</p>
+              <p className="m-0">© {new Date().getFullYear()} FAIR-BioRS Contributors.</p>
               <p className="m-0">All rights reserved.</p>
             </div>
 
