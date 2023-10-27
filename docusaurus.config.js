@@ -33,7 +33,7 @@ const config = {
           showLastUpdateTime: true,
           versions: {
             current: {
-              label: `Upcoming 🚧`,
+              label: `2.0.0`,
             },
           },
         },
