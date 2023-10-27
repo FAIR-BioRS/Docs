@@ -91,49 +91,49 @@ const config = {
       footer: {
         style: 'dark',
         links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Changelog',
-                to: 'docs/resources/changelog',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              // {
-              //   label: 'Stack Overflow',
-              //   href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              // },
-              {
-                label: 'Homepage',
-                href: 'https://fairdataihub.org',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/fairdataihub',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              // {
-              //   label: "Blog",
-              //   to: "/blog",
-              // },
-              {
-                label: 'Guidelines on GitHub',
-                href: 'https://github.com/FAIR-BioRS/Guidelines',
-              },
-              {
-                label: 'Docs on GitHub',
-                href: 'https://github.com/FAIR-BioRS/Docs',
-              },
-            ],
-          },
+          // {
+          //   title: 'Docs',
+          //   items: [
+          //     {
+          //       label: 'Changelog',
+          //       to: 'docs/resources/changelog',
+          //     },
+          //   ],
+          // },
+          // {
+          // title: 'Community',
+          // items: [
+          // {
+          //   label: 'Stack Overflow',
+          //   href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+          // },
+          // {
+          //   label: 'Homepage',
+          //   href: 'https://fairdataihub.org',
+          // },
+          // {
+          //   label: 'Twitter',
+          //   href: 'https://twitter.com/fairdataihub',
+          // },
+          // ],
+          // },
+          // {
+          //   title: 'More',
+          //   items: [
+          //     {
+          //       label: "Blog",
+          //       to: "/blog",
+          //     },
+          //     {
+          //       label: 'Guidelines on GitHub',
+          //       href: 'https://github.com/FAIR-BioRS/Guidelines',
+          //     },
+          //     {
+          //       label: 'Docs on GitHub',
+          //       href: 'https://github.com/FAIR-BioRS/Docs',
+          //     },
+          //   ],
+          // },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} FAIR-BioRS Contributors.`,
       },

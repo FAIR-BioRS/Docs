@@ -12,14 +12,14 @@ html {
 /* You can override the default Infima variables here. */
 /* Pick the relevant colors here: https://docusaurus.io/docs/styling-layout#styling-your-site-with-infima */
 :root {
-  --ifm-color-primary-lightest: #0c9393;
-  --ifm-color-primary-lighter: #0a8282;
-  --ifm-color-primary-light: #0a7c7c;
-  --ifm-color-primary: #097171;
-  --ifm-color-primary-dark: #086666;
-  --ifm-color-primary-darker: #086060;
-  --ifm-color-primary-darkest: #064f4f;
-  --ifm-link-color: #0ec0c0;
+  --ifm-color-primary-lightest: #2c85dd;
+  --ifm-color-primary-lighter: #2075ca;
+  --ifm-color-primary-light: #1f70c2;
+  --ifm-color-primary: #1c66b0;
+  --ifm-color-primary-dark: #195c9e;
+  --ifm-color-primary-darker: #185796;
+  --ifm-color-primary-darkest: #14477b;
+  --ifm-link-color: #1c66b0;
 
   --ifm-toc-link-color: #94a3b8;
 
@@ -37,11 +37,6 @@ html {
 
   --footer-background-color: #fafafa;
 }
-
-/* plum: #ba0d49,
-plum-light: #dd105a,
-plum very light: #f8cdbe7,
-*/
 
 /* dark theme variables */
 html[data-theme='dark'] {
