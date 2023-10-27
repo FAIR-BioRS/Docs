@@ -7,7 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [v1.0.0] - 2023-10-27
 
-This is the first release of the FAIR-BioRS documentation.This version corresponse to the v2.0.0 of the FAIR-BioRS guidelines.
+This is the first release of the FAIR-BioRS documentation. This version corresponse to the v2.0.0 of the FAIR-BioRS guidelines.
 
 ### Added
 
