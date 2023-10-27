@@ -12,7 +12,7 @@ const config = {
   // eslint-disable-next-line max-len
   tagline:
     // eslint-disable-next-line max-len
-    'The first minimal and actionable step-by-step guidelines for biomedical researchers to make their research software compliant with the FAIR4RS principles.',
+    'Minimal and actionable step-by-step guidelines for biomedical researchers to make their research software reusable in line with the FAIR4RS principles.',
   url: 'https://docs.fair-biors.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',

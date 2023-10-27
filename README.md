@@ -24,8 +24,8 @@
     <a href="https://github.com/FAIR-BioRS/Docs/blob/main/LICENSE">
       <img src="https://img.shields.io/github/license/FAIR-BioRS/Docs.svg?style=flat-square" alt="license" />
     </a>
-    <a href="https://doi.org/10.5281/zenodo.6407300">
-      <img src="https://zenodo.org/badge/DOI/10.5281/zenodo.6407300.svg" alt="doi" />
+    <a href="https://doi.org/10.5281/zenodo.6604538">
+      <img src="https://zenodo.org/badge/DOI/10.5281/zenodo.6604538.svg" alt="doi" />
     </a>
     <a href="https://fairdataihub.org/fairshare">
       <img src="https://img.shields.io/badge/Curated%20with-FAIRshare-yellow" alt="Curated with FAIRshare" />
