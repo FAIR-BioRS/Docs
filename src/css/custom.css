@@ -33,6 +33,9 @@ html {
   --feedback-no-color: var(--plum-color);
 
   --footer-background-color: #fafafa;
+
+  --ifm-line-height-base: 1.75;
+  --ifm-font-family-base: 'Inter', sans-serif;
 }
 
 /* dark theme variables */
@@ -78,7 +81,7 @@ h6,
 .theme-edit-this-page,
 .theme-last-updated,
 .theme-doc-toc-desktop {
-  @apply font-inter;
+  /* @apply !font-inter; */
 }
 
 .theme-doc-markdown img,
