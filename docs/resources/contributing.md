@@ -13,7 +13,7 @@ Have feedback, suggestions, or questions related to the FAIR-BioRS guidelines? S
 
 ### Developer instructions
 
-Instructions for making changes to the documentation, submitting a PR, and publishing a new version of the documentation and guidelines are available [here](https://github.com/FAIR-BioRS/Docs/).
+Instructions for making changes to the documentation, submitting a PR, and publishing a new version of the documentation and guidelines are available [here](https://github.com/FAIR-BioRS/Docs/blob/initial-inputs/dev/README.md).
 
 import PageFeedback from '@site/src/components/PageFeedback';
 
