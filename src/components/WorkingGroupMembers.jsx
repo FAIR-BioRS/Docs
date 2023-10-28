@@ -21,11 +21,15 @@ const WORKING_GROUP_MEMBERS = [
     id: 'Bhavesh-Patel',
     name: 'Bhavesh Patel',
     organization: 'California Medical Innovations Institute',
-    caption: 'I am me.',
+    caption: 'I develop biomechanical computational models and software that help researchers make their data FAIR',
     image:
       'https://ucarecdn.com/7f1f0a27-1bcc-47b2-b155-0d99f22907cb/-/preview/-/crop/1:1/50p,30p/',
 
-    social: {},
+    social: {
+      website: ['https://fairdataihub.org/'],
+      github: 'https://github.com/bvhpatel',
+      twitter: 'https://twitter.com/fairdataihub',
+    },
   },
 ];
 
