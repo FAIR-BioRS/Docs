@@ -16,6 +16,16 @@ const WORKING_GROUP_MEMBERS = [
       twitter: 'https://twitter.com/megasanjay',
     },
   },
+  {
+    id: 'Bhavesh-Patel',
+    name: 'Bhavesh Patel',
+    organization: 'California Medical Innovations Institute',
+    caption: 'I am me.',
+    image:
+      'https://ucarecdn.com/7f1f0a27-1bcc-47b2-b155-0d99f22907cb/-/preview/-/crop/1:1/50p,30p/',
+
+    social: {},
+  },
 ];
 
 export default function WorkingGroupMembers() {
