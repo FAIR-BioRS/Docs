@@ -9,7 +9,9 @@ A Working Group has been established to continue much needed efforts related to 
 
 ## Working group members
 
-Coming soon...
+import WorkingGroupMembers from '@site/src/components/WorkingGroupMembers';
+
+<WorkingGroupMembers />
 
 ## On-going activities
 
@@ -24,5 +26,7 @@ Coming soon...
 ## Interest in joining?
 
 If you are working with or developing biomedical research software and are interested in joining the FAIR-BioRS Working Group, please [open a GitHub issue](https://github.com/FAIR-BioRS/Docs/issues) or email bpatel@calmi2.org.
+
+import PageFeedback from '@site/src/components/PageFeedback';
 
 <PageFeedback />
