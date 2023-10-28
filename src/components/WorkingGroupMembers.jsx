@@ -1,5 +1,6 @@
 /* eslint-disable max-len */
 import React from 'react';
+import { Icon } from '@iconify/react';
 
 const WORKING_GROUP_MEMBERS = [
   {
@@ -47,12 +48,12 @@ export default function WorkingGroupMembers() {
           </div>
 
           <div className="w-full py-8 px-6 text-left md:w-[55%] md:px-4 md:py-2">
-            <p className="text-xl font-extrabold text-gray-900 mb-0">{member.name}</p>
+            <p className="text-xl font-extrabold text-gray-900 mb-1">{member.name}</p>
 
             <div>
               {member.organization && (
                 <div className="flex items-start font-semibold text-sky-700">
-                  <span className="mb-0">{member.organization}</span>
+                  <span className="mb-1 text-base">{member.organization}</span>
                 </div>
               )}
             </div>
@@ -60,6 +61,52 @@ export default function WorkingGroupMembers() {
             <hr className="my-2" />
 
             <p className="mb-0 text-lg md:text-base">{member.caption}</p>
+
+            {Object.keys(member.social).length > 0 && <hr className="my-2" />}
+
+            <ul className="flex items-center justify-start sm:mt-0 p-0 space-x-3">
+              {'github' in member.social && (
+                <li className="flex items-center justify-center transition-all hover:text-sky-600 !mt-0">
+                  <a
+                    href={member.social.github}
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    className="cursor-newtab flex items-center justify-center text-gray-500"
+                  >
+                    <Icon icon="mdi:github" width={25} height={25} />
+                    <span className="sr-only"> Github page </span>
+                  </a>
+                </li>
+              )}
+
+              {'twitter' in member.social && (
+                <li className="flex items-center justify-center transition-all hover:text-sky-600 !mt-0 ">
+                  <a
+                    href={member.social.twitter}
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    className="cursor-newtab flex items-center justify-center text-gray-500"
+                  >
+                    <Icon icon="ri:twitter-x-fill" width={25} height={22} />
+                    <span className="sr-only"> Twitter page </span>
+                  </a>
+                </li>
+              )}
+
+              {'website' in member.social && (
+                <li className="flex items-center justify-center  transition-all hover:text-sky-600 !mt-0 ">
+                  <a
+                    href={member.social.website}
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    className="cursor-newtab flex items-center justify-center text-gray-500"
+                  >
+                    <Icon icon="ph:globe" width={25} height={25} />
+                    <span className="sr-only"> Twitter page </span>
+                  </a>
+                </li>
+              )}
+            </ul>
           </div>
         </div>
       ))}
