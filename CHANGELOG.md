@@ -1,3 +1,9 @@
+## [1.1.1](https://github.com/FAIR-BioRS/Docs/compare/v1.1.0...v1.1.1) (2023-10-29)
+
+### Bug Fixes
+
+- 🐛 add og images ([5be021b](https://github.com/FAIR-BioRS/Docs/commit/5be021b1b60e818bf0db9d0be1cec3f20a34b709))
+
 # [1.1.0](https://github.com/FAIR-BioRS/Docs/compare/v1.0.0...v1.1.0) (2023-10-29)
 
 ### Bug Fixes
