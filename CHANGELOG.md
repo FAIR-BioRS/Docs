@@ -1,3 +1,13 @@
+# [1.1.0](https://github.com/FAIR-BioRS/Docs/compare/v1.0.0...v1.1.0) (2023-10-29)
+
+### Bug Fixes
+
+- 🐛 update font sizing for the homepage ([557fd67](https://github.com/FAIR-BioRS/Docs/commit/557fd67c047db306c41cc3bafe206bfdddc7d568))
+
+### Features
+
+- ✨ add og images ([6ddada8](https://github.com/FAIR-BioRS/Docs/commit/6ddada8ca321e0d9fb9b3be460e63baf64bf4278))
+
 # 1.0.0 (2023-10-27)
 
 This is the first release of the FAIR-BioRS documentation. This version corresponse to the v2.0.0 of the FAIR-BioRS guidelines.
