@@ -26,4 +26,6 @@ Coming soon...
 
 If you are working with or developing biomedical research software and are interested in joining the FAIR-BioRS Working Group, please [open a GitHub issue](https://github.com/FAIR-BioRS/Docs/issues) or email bpatel@calmi2.org.
 
+import PageFeedback from '@site/src/components/PageFeedback';
+
 <PageFeedback />

@@ -9,3 +9,7 @@ We provide here a select list of software that comply with the FAIR-BioRS guidel
 - [SODA for SPARC](https://github.com/fairdataihub/SODA-for-SPARC)
 - [FAIRshare](https://github.com/fairdataihub/fairshare)
 - [Code associated with the FAIR-BioRS guidelines development](https://github.com/FAIR-BioRS/Code)
+
+import PageFeedback from '@site/src/components/PageFeedback';
+
+<PageFeedback />
