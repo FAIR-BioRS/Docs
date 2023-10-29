@@ -73,9 +73,9 @@ const FeatureList = [
 function Feature({ animationOptions, title, description }) {
   if (title === 'Findable') {
     return (
-      <div className={clsx('col col--3')}>
-        <div className="flex justify-center py-4 mb-[2.1rem]">
-          <Lottie options={animationOptions} height={265} width={350} />
+      <div className={clsx('col col--3 flex flex-col items-center justify-center')}>
+        <div className="flex justify-center items-center py-4 mb-[2.1rem]">
+          <Lottie options={animationOptions} height={165} width={200} />
         </div>
         <div className="text--center padding-horiz--md">
           <h3>{title}</h3>
@@ -87,7 +87,7 @@ function Feature({ animationOptions, title, description }) {
   return (
     <div className={clsx('col col--3')}>
       <div className="flex justify-center py-4">
-        <Lottie options={animationOptions} height={300} width={300} />
+        <Lottie options={animationOptions} height={200} width={200} />
       </div>
       <div className="text--center padding-horiz--md">
         <h3>{title}</h3>
