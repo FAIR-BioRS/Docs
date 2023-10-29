@@ -1,6 +1,7 @@
 ---
 sidebar_position: 2
 title: Guidelines
+image: https://kalai.fairdataihub.org/api/generate?app=fair-biors&title=Guidelines&org=fair-biors&description=FAIR%20Biomedical%20Research%20Software%20Guidelines
 ---
 
 ## FAIR-BioRS Guidelines v2.0.0

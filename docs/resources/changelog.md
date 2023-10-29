@@ -1,7 +1,7 @@
 ---
 sidebar_position: 4
-
 title: Changelog
+image: https://kalai.fairdataihub.org/api/generate?app=fair-biors&title=Changelog&org=fair-biors&description=FAIR%20Biomedical%20Research%20Software%20Guidelines
 ---
 
 All notable changes to the FAIR-BioRS guidelines will be documented in this file.

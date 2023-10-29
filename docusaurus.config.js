@@ -162,6 +162,16 @@ const config = {
           name: 'author',
           content: 'FAIR-BioRS Contributors',
         },
+        {
+          name: 'og:image',
+          content:
+            // eslint-disable-next-line max-len
+            'https://kalai.fairdataihub.org/api/generate?app=fair-biors&title=FAIR%20Biomedical%20Research%20Software%20Guidelines&org=fair-biors&description=FAIR%20BioRS%20is%20the%20first%20minimal%20and%20actionable%20step-by-step%20guidelines%20for%20biomedical%20researchers%20to%20make%20their%20research%20software%20compliant%20with%20the%20FAIR4RS%20principles',
+        },
+        {
+          name: 'twitter:card',
+          content: 'summary_large_image',
+        },
       ],
       // algolia: {
       //   appId: '5C68KRW2LG',

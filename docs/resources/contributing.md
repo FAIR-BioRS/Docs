@@ -1,6 +1,7 @@
 ---
 sidebar_position: 3
 title: Contributing
+image: https://kalai.fairdataihub.org/api/generate?app=fair-biors&title=Contributing&org=fair-biors&description=FAIR%20Biomedical%20Research%20Software%20Guidelines
 ---
 
 ## Joining the FAIR-BioRS Working Group

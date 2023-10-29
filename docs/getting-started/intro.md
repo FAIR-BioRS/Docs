@@ -1,6 +1,7 @@
 ---
 sidebar_position: 1
 title: Introduction to the FAIR-BioRS Guidelines
+image: https://kalai.fairdataihub.org/api/generate?app=fair-biors&title=Introduction%20&org=fair-biors&description=FAIR%20Biomedical%20Research%20Software%20Guidelines
 ---
 
 ## :star2: Overview
