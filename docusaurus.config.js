@@ -17,7 +17,7 @@ const config = {
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: '/favicon.ico',
   organizationName: 'FAIR-BioRS',
   projectName: 'FAIR-BioRS Docs',
 
@@ -168,6 +168,55 @@ const config = {
         {
           name: 'twitter:card',
           content: 'summary_large_image',
+        },
+      ],
+      headTags: [
+        {
+          tagName: 'link',
+          attributes: {
+            rel: 'apple-touch-icon',
+            sizes: '180x180',
+            href: '/apple-touch-icon.png',
+          },
+        },
+        {
+          tagName: 'link',
+          attributes: {
+            rel: 'icon',
+            type: 'image/png',
+            sizes: '32x32',
+            href: '/favicon-32x32.png',
+          },
+        },
+        {
+          tagName: 'link',
+          attributes: {
+            rel: 'icon',
+            type: 'image/png',
+            sizes: '16x16',
+            href: '/favicon-16x16.png',
+          },
+        },
+        {
+          tagName: 'link',
+          attributes: {
+            rel: 'manifest',
+            href: '/site.webmanifest',
+          },
+        },
+        {
+          tagName: 'meta',
+          attributes: {
+            name: 'msapplication-TileColor',
+            content: '#da532c',
+          },
+        },
+        {
+          tagName: 'meta',
+          attributes: {
+            name: 'theme-color',
+            content: '#ffffff',
+          },
         },
       ],
       // algolia: {
