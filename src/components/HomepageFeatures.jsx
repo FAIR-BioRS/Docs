@@ -5,66 +5,63 @@ import clsx from 'clsx';
 import Lottie from 'react-lottie';
 import styles from './HomepageFeatures.module.css';
 
-import scienceAnimationData from './lotties/column1lottie.json';
-import focusAnimationData from './lotties/column2lottie.json';
-import programmingAnimationData from './lotties/column3lottie.json';
-import reusableAnimationData from './lotties/column4lottie.json';
+import increaseAnimationData from './lotties/column1lottie.json';
+import rewardAnimationData from './lotties/column2lottie.json';
+import complyAnimationData from './lotties/column3lottie.json';
 
 const FeatureList = [
   {
-    title: 'Findable',
+    title: "Increase your software's impact",
     animationOptions: {
       loop: true,
       autoplay: true,
-      animationData: scienceAnimationData,
+      animationData: increaseAnimationData,
       rendererSettings: {
         preserveAspectRatio: 'xMidYMid slice',
       },
     },
     description: (
       <>
-        Findable data is the starting point for knowledge, like finding a light switch in the dark.
+        {' '}
+        The guidelines are designed to make your software more findable and easily reusable by
+        others
       </>
     ),
   },
   {
-    title: 'Accessible',
+    title: 'Get rewarded for your effort',
     animationOptions: {
       loop: true,
       autoplay: true,
-      animationData: focusAnimationData,
-      rendererSettings: {
-        preserveAspectRatio: 'xMidYMid slice',
-      },
-    },
-    description: <>Accessible data opens doors to information, enabling discoveries for all.</>,
-  },
-  {
-    title: 'Interoperable ',
-    animationOptions: {
-      loop: true,
-      autoplay: true,
-      animationData: programmingAnimationData,
+      animationData: rewardAnimationData,
       rendererSettings: {
         preserveAspectRatio: 'xMidYMid slice',
       },
     },
     description: (
-      <>Interoperable systems speak the same language, uniting data for meaningful insights.</>
+      <>
+        {' '}
+        By following the FAIR-BioRS guidelines your can allow others to cite your software, just
+        like manuscripts{' '}
+      </>
     ),
   },
   {
-    title: 'Reusuable',
+    title: 'Comply with funding agencies',
     animationOptions: {
       loop: true,
       autoplay: true,
-      animationData: reusableAnimationData,
+      animationData: complyAnimationData,
       rendererSettings: {
         preserveAspectRatio: 'xMidYMid slice',
       },
     },
     description: (
-      <>Reusable data, like a well-crafted tool, fuels ongoing research and innovation.</>
+      <>
+        {' '}
+        Start complying with funding agencies such as the NIH that are progressively requiring all
+        research outcomes to be FAIR
+      </>
     ),
   },
 ];

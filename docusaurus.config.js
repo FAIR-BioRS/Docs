@@ -8,16 +8,16 @@ const darkCodeTheme = themes.dracula;
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'FAIR Biomedical Research Software Guidelines',
+  title: 'FAIR Biomedical Research Software (FAIR-BioRS) Guidelines',
   // eslint-disable-next-line max-len
   tagline:
     // eslint-disable-next-line max-len
-    'Minimal and actionable step-by-step guidelines for biomedical researchers to make their research software reusable in line with the FAIR4RS principles.',
+    'Minimal and actionable step-by-step guidelines for making biomedical research software reusable in line with the FAIR4RS principles.',
   url: 'https://docs.fair-biors.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: '/favicon.ico',
   organizationName: 'FAIR-BioRS',
   projectName: 'FAIR-BioRS Docs',
 
@@ -59,7 +59,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'FAIR Biomedical Research Software ',
+        title: 'FAIR-BioRS ',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -168,6 +168,55 @@ const config = {
         {
           name: 'twitter:card',
           content: 'summary_large_image',
+        },
+      ],
+      headTags: [
+        {
+          tagName: 'link',
+          attributes: {
+            rel: 'apple-touch-icon',
+            sizes: '180x180',
+            href: '/apple-touch-icon.png',
+          },
+        },
+        {
+          tagName: 'link',
+          attributes: {
+            rel: 'icon',
+            type: 'image/png',
+            sizes: '32x32',
+            href: '/favicon-32x32.png',
+          },
+        },
+        {
+          tagName: 'link',
+          attributes: {
+            rel: 'icon',
+            type: 'image/png',
+            sizes: '16x16',
+            href: '/favicon-16x16.png',
+          },
+        },
+        {
+          tagName: 'link',
+          attributes: {
+            rel: 'manifest',
+            href: '/site.webmanifest',
+          },
+        },
+        {
+          tagName: 'meta',
+          attributes: {
+            name: 'msapplication-TileColor',
+            content: '#da532c',
+          },
+        },
+        {
+          tagName: 'meta',
+          attributes: {
+            name: 'theme-color',
+            content: '#ffffff',
+          },
         },
       ],
       // algolia: {

@@ -1,6 +1,6 @@
 <div align="center">
+  <img src="static/img/logo.svg" alt="logo" width="200" height="auto" />
 
-  <img src="static/img/fairbio-rs.png" alt="logo" width="200" height="auto" />
   <h1>FAIR Biomedical Research Software (FAIR-BioRS) Guidelines</h1>
   
   <p>
@@ -30,8 +30,8 @@
     <a href="https://fairdataihub.org/fairshare">
       <img src="https://img.shields.io/badge/Curated%20with-FAIRshare-yellow" alt="Curated with FAIRshare" />
     </a>
-  </p>
 
+  </p>
 </div>
 
 <br />
@@ -50,7 +50,7 @@ If you are developing such a software for biomedical research, head to the [docu
 
 ### Joining the FAIR-BioRS Working Group
 
-If you are working with or developing biomedical research software and are interested in joining the FAIR-BioRS Working Group, please open a [GitHub issue](https://github.com/FAIR-BioRS/Docs/issues) or email bpatel@calmi2.org.
+If you are working with or developing biomedical research software and are interested in joining the FAIR-BioRS Working Group, please open a [GitHub issue](https://github.com/FAIR-BioRS/Docs/issues) or email [bpatel@calmi2.org](mailto:bpatel@calmi2.org).
 
 ### Providing feedback/suggestions
 
