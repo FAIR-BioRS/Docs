@@ -10,6 +10,13 @@ import SuccessAnimationData from './lotties/success.json';
 function AskFeedback({ setShowSuccess, setReaction }) {
   const [startLikeAnimation, setStartLikeAnimation] = React.useState(false);
   const [startDislikeAnimation, setStartDislikeAnimation] = React.useState(false);
+  const [analyticsTitle, setAnalyticsTitle] = React.useState('');
+
+  React.useEffect(() => {
+    const windowTitle = document.title;
+    const title = windowTitle.split(' | ')[0];
+    setAnalyticsTitle(title);
+  }, []);
 
   const likeAnimationOptions = {
     loop: true,
@@ -36,13 +43,13 @@ function AskFeedback({ setShowSuccess, setReaction }) {
     setReaction(action);
 
     const windowTitle = document.title;
-    const analyticsTitle = windowTitle.split(' | ')[0];
+    const aT = windowTitle.split(' | ')[0];
     const feedbackText = '';
 
     const requestOptions = {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ type: 'Reaction', category: analyticsTitle, action, feedbackText }),
+      body: JSON.stringify({ type: 'Reaction', category: aT, action, feedbackText }),
     };
     fetch('/api/feedback', requestOptions).then(async (response) => {
       const { status } = response;
@@ -75,7 +82,7 @@ function AskFeedback({ setShowSuccess, setReaction }) {
         <button
           className="feedback-button feedback-button-yes"
           data-umami-event="feedback-yes"
-          data-umami-event-title={document.title.split(' | ')[0]}
+          data-umami-event-title={analyticsTitle}
           onClick={() => sendReactionFeedback('Like')}
           onMouseEnter={() => setStartLikeAnimation(true)}
           onMouseLeave={() => setStartLikeAnimation(false)}
@@ -93,7 +100,7 @@ function AskFeedback({ setShowSuccess, setReaction }) {
         <button
           className="feedback-button feedback-button-no"
           data-umami-event="feedback-no"
-          data-umami-event-title={document.title.split(' | ')[0]}
+          data-umami-event-title={analyticsTitle}
           onClick={() => sendReactionFeedback('Dislike')}
           onMouseEnter={() => setStartDislikeAnimation(true)}
           onMouseLeave={() => setStartDislikeAnimation(false)}
