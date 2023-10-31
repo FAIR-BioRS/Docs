@@ -1,3 +1,9 @@
+## [1.2.4](https://github.com/FAIR-BioRS/Docs/compare/v1.2.3...v1.2.4) (2023-10-31)
+
+### Bug Fixes
+
+- 🐛 add logog to homepage ([aa326b8](https://github.com/FAIR-BioRS/Docs/commit/aa326b85d1de7d7b4f0e86135370a4930758a04d))
+
 ## [1.2.3](https://github.com/FAIR-BioRS/Docs/compare/v1.2.2...v1.2.3) (2023-10-31)
 
 ### Bug Fixes
