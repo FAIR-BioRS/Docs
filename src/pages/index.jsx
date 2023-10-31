@@ -13,12 +13,21 @@ function HomepageHeader() {
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
+        <div className="flex justify-center">
+          <div className="rounded-full bg-white p-6 w-max mb-10 flex items-center justify-center">
+            <img src="img/logo.svg" alt="FAIR BioRS Logo" width="100px" height="100px" />
+          </div>
+        </div>
+
         <h1 className="hero__title text-4xl">{siteConfig.title}</h1>
+
         <p className="hero__subtitle text-xl">{siteConfig.tagline}</p>
+
         <div className={styles.buttons}>
           <Link className="button button--secondary button--lg" to="/docs/getting-started/intro">
             View the Documentation
           </Link>
+
           <Link
             className="button button--secondary button--lg"
             to="https://github.com/FAIR-BioRS/Docs"
@@ -35,6 +44,7 @@ export default function Home() {
   return (
     <Layout title="" description="Documentation for the FAIR BioRS Principles">
       <HomepageHeader />
+
       <main>
         <HomepageFeatures />
       </main>
