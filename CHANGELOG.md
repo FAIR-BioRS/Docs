@@ -1,3 +1,9 @@
+## [1.2.3](https://github.com/FAIR-BioRS/Docs/compare/v1.2.2...v1.2.3) (2023-10-31)
+
+### Bug Fixes
+
+- 🐛 fix typo ([e10907d](https://github.com/FAIR-BioRS/Docs/commit/e10907d8643368ff6112e9f847e135515e256c3a))
+
 ## [1.2.2](https://github.com/FAIR-BioRS/Docs/compare/v1.2.1...v1.2.2) (2023-10-31)
 
 ### Bug Fixes
