@@ -1,3 +1,9 @@
+# [1.2.0](https://github.com/FAIR-BioRS/Docs/compare/v1.1.2...v1.2.0) (2023-10-31)
+
+### Features
+
+- ✨ update icons ([#3](https://github.com/FAIR-BioRS/Docs/issues/3)) ([42c3155](https://github.com/FAIR-BioRS/Docs/commit/42c315547cc1483a965c270918cff7ec57b3c29a))
+
 ## [1.1.2](https://github.com/FAIR-BioRS/Docs/compare/v1.1.1...v1.1.2) (2023-10-29)
 
 ### Bug Fixes
