@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 /* eslint-disable import/no-unresolved */
 import React from 'react';
 import clsx from 'clsx';
@@ -12,8 +13,8 @@ function HomepageHeader() {
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
-        <h1 className="hero__title">{siteConfig.title}</h1>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <h1 className="hero__title text-4xl">{siteConfig.title}</h1>
+        <p className="hero__subtitle text-xl">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
           <Link className="button button--secondary button--lg" to="/docs/getting-started/intro">
             View the Documentation

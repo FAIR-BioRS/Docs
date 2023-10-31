@@ -1,6 +1,7 @@
 ---
 sidebar_position: 4
 title: Working Group
+image: https://kalai.fairdataihub.org/api/generate?app=fair-biors&title=Crosswalk%20with%20FAIR4RS&org=fair-biors&description=FAIR%20Biomedical%20Research%20Software%20Guidelines
 ---
 
 ## Overview
