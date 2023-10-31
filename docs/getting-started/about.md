@@ -22,7 +22,7 @@ This documentation is maintained from its GitHub repository accessible [here](ht
 
 ## Suggestions/Feedback
 
-Have a suggestion for improving the FAIR-BioRS Guidelines? Need help implementing the CDS? Checkout instructions in our [Contributing page](../resources/contributing).
+Have a suggestion for improving the FAIR-BioRS guidelines? Need help implementing the guidelines? Checkout instructions in our [Contributing page](../resources/contributing).
 
 import PageFeedback from '@site/src/components/PageFeedback';
 
