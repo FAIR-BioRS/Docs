@@ -127,9 +127,9 @@ function ShowSuccessMessage({ hideSubText }) {
     <div className="flex flex-row items-center justify-center">
       <div className="flex flex-col items-center justify-center">
         <h3 className="mb-0 w-max"> Thank you for your feedback! </h3>
-        {!hideSubText && (
+        {/* {!hideSubText && (
           <h4 className="mb-3 pt-1">Would you like to leave any additional comments?</h4>
-        )}
+        )} */}
       </div>
       {hideSubText && (
         <Lottie
