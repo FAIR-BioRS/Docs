@@ -1,3 +1,9 @@
+## [1.2.2](https://github.com/FAIR-BioRS/Docs/compare/v1.2.1...v1.2.2) (2023-10-31)
+
+### Bug Fixes
+
+- 🐛 useEffect for document title ([36ed895](https://github.com/FAIR-BioRS/Docs/commit/36ed8951838873ae1b51c10a8027c3a4f549107a))
+
 ## [1.2.1](https://github.com/FAIR-BioRS/Docs/compare/v1.2.0...v1.2.1) (2023-10-31)
 
 ### Bug Fixes
