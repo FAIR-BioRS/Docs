@@ -10,9 +10,15 @@ A Working Group has been established to continue much needed efforts related to 
 
 ## Working group members
 
-import WorkingGroupMembers from '@site/src/components/WorkingGroupMembers';
+:::info
 
-<WorkingGroupMembers />
+Coming soon!
+
+:::
+
+<!-- import WorkingGroupMembers from '@site/src/components/WorkingGroupMembers';
+
+<WorkingGroupMembers /> -->
 
 ## On-going/upcoming activities
 
