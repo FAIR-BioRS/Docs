@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/FAIR-BioRS/Docs/compare/v1.2.0...v1.2.1) (2023-10-31)
+
+### Bug Fixes
+
+- 🐛 track reaction feedback via umami ([35ee4f2](https://github.com/FAIR-BioRS/Docs/commit/35ee4f280decd6b2b29a2f078ca1fc11b455baa0))
+- 🐛 update text feedback message ([4069f66](https://github.com/FAIR-BioRS/Docs/commit/4069f66135b0f0f3837a31d39972e02f8629b622))
+
 # [1.2.0](https://github.com/FAIR-BioRS/Docs/compare/v1.1.2...v1.2.0) (2023-10-31)
 
 ### Features
