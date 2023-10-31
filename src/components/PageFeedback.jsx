@@ -7,7 +7,7 @@ import DislikeAnimationData from './lotties/dislike.json';
 import SuccessAnimationData from './lotties/success.json';
 
 // eslint-disable-next-line react/prop-types
-function AskFeedback({ setShowSuccess, setReaction, setShowTextFeedback }) {
+function AskFeedback({ setShowSuccess, setReaction }) {
   const [startLikeAnimation, setStartLikeAnimation] = React.useState(false);
   const [startDislikeAnimation, setStartDislikeAnimation] = React.useState(false);
 
@@ -63,7 +63,7 @@ function AskFeedback({ setShowSuccess, setReaction, setShowTextFeedback }) {
       }
     });
 
-    setShowTextFeedback(true);
+    // setShowTextFeedback(true);
     setShowSuccess(true);
   };
 
@@ -74,6 +74,8 @@ function AskFeedback({ setShowSuccess, setReaction, setShowTextFeedback }) {
       <div className="flex items-center justify-center space-x-4">
         <button
           className="feedback-button feedback-button-yes"
+          data-umami-event="feedback-yes"
+          data-umami-event-title={document.title.split(' | ')[0]}
           onClick={() => sendReactionFeedback('Like')}
           onMouseEnter={() => setStartLikeAnimation(true)}
           onMouseLeave={() => setStartLikeAnimation(false)}
@@ -87,8 +89,11 @@ function AskFeedback({ setShowSuccess, setReaction, setShowTextFeedback }) {
           />
           <span className="px-2">Yes</span>
         </button>
+
         <button
           className="feedback-button feedback-button-no"
+          data-umami-event="feedback-no"
+          data-umami-event-title={document.title.split(' | ')[0]}
           onClick={() => sendReactionFeedback('Dislike')}
           onMouseEnter={() => setStartDislikeAnimation(true)}
           onMouseLeave={() => setStartDislikeAnimation(false)}
