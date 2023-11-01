@@ -7,7 +7,7 @@ const darkCodeTheme = themes.dracula;
 // const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
-const config = {
+export default {
   title: 'FAIR Biomedical Research Software (FAIR-BioRS) Guidelines',
   // eslint-disable-next-line max-len
   tagline:
@@ -238,5 +238,3 @@ const config = {
     },
   ],
 };
-
-module.exports = config;
