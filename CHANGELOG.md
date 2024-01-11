@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/FAIR-BioRS/Docs/compare/v1.2.4...v1.3.0) (2024-01-11)
+
+### Features
+
+- ✨ add colors to crosswalk table ([fdebfc0](https://github.com/FAIR-BioRS/Docs/commit/fdebfc0fc52596a6027abca5f9505834f39c0522))
+- Crosswalk FAIR4RS-NIH best practices ([cdbe438](https://github.com/FAIR-BioRS/Docs/commit/cdbe438f5e5d5c7ee53fbe4ffc299e4b6c5923ca))
+
 ## [1.2.4](https://github.com/FAIR-BioRS/Docs/compare/v1.2.3...v1.2.4) (2023-10-31)
 
 ### Bug Fixes
